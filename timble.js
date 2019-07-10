@@ -324,6 +324,7 @@ const browserMain = () => {
     return el;
   };
 
+  // c.f. https://stackoverflow.com/a/4835406
   const escapeHTML = text =>
     text
       .replace(/&/g, "&amp;")
